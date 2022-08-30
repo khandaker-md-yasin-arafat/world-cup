@@ -287,6 +287,9 @@ Media Queries
     footer{
         margin-top: -100px;
     }
+    .footer{
+        background: #151516;
+    }
     .footer-menu ul {
         text-align: center;
         display: grid;
@@ -353,5 +356,8 @@ Media Queries
     .upcoming-match {
         display: grid;
         justify-content: center;
+    }
+    .footer{
+        background: #151516;
     }
 }
