@@ -301,28 +301,6 @@ Media Queries
         justify-content: center;
     }
 
-    /* .top-banner, .players, .clubs, .ticket{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .banner-title h2 {
-        font-size: 43px;
-        margin-bottom: 30px;
-    }
-    .banner-img img {
-        width: 100%;
-        margin-top: 50px;
-    }
-    .ticket-img img {
-        width: 100%;
-        margin-top: 50px;
-    }
-    footer {
-        margin-top: 20px;
-    }
-    .footer-logo img {
-        width: 100%;
-    } */
-
 }
 
 /* Tablet Devices */
@@ -330,10 +308,46 @@ Media Queries
     .container{
         width: 100%;
     }
-    .top-banner, .players, .clubs, .ticket{
-        grid-template-columns: repeat(2, 1fr);
+    header {
+        margin-top: 50px;
+        display: grid;
+        justify-items: center;
+        margin-bottom: -25px;
     }
-    .banner-img img {
-        width: 100%;
+    section{
+        margin-bottom: 50px;
+    }
+    .time-schedule {
+        display: grid;
+    }
+    .side-menu {
+        background: #fff;
+        text-align: center;
+        margin: 0px auto;
+        margin-bottom: -75px;
+    }
+    .side-menu ul{
+        display: flex;
+        justify-content: center;
+    }
+    .side-menu ul li {
+        list-style: none;
+        border: 1px solid #ddd;
+        margin-top: 15px;
+        border-radius: 12px;
+        margin-left: 20px;
+    }
+    .live-matches {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+    .view-all-btn{
+        display: block;
+        text-align: center;
+    }
+    .upcoming-matches{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
     }
 }
