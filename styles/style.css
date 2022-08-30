@@ -17,6 +17,9 @@ body{
     margin: 0 auto;
     padding: 50px;
 }
+section{
+    margin-bottom: 100px;
+}
 /* -----------
 Header Styles 
 ------------*/
@@ -24,6 +27,7 @@ header{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 /* --------------
 Top Banner Styles 
@@ -177,4 +181,41 @@ Time Schedule Style
     font-size: 20px;
     font-weight: 500;
     border-radius: 5px;
+}
+/* -----------
+Footer Styles 
+------------*/
+footer{
+    background: #151516;
+}
+.footer-content h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+.footer-content hr{
+
+}
+.footer-menu{
+    margin-top: 40px;
+}
+.footer-menu ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-menu ul li{
+    list-style: none;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.social-icon{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.social-icon a{
+    padding: 0 15px;
+    color: #fff;
 }
