@@ -1,0 +1,65 @@
+/* -----------
+Google Fonts 
+----------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+/* -----------
+Common Styles 
+----------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 960px;
+}
+/* -----------
+Header Styles 
+------------*/
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* --------------
+Top Banner Styles 
+---------------*/
+.top-banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: #151516;
+    padding: 50px;
+    border-radius: 25px;
+}
+.banner-title{
+    color: #FFFFFF;
+}
+.banner-title h2{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.banner-title p{
+    margin-bottom: 40px;
+}
+.banner-btn{
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 170px;
+    height: 45px;
+    background-color: #DD1E26;
+    padding: 10px 24px;
+    border-radius: 5px;
+}
+.banner-img img{
+    width: 556px;
+}
+.banner-img img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
